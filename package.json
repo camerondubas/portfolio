@@ -1,0 +1,19 @@
+{
+  "name": "camerondubas",
+  "version": "0.0.0",
+  "description": "Portfolio of cameron dubas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/camerondubas/portfolio.git"
+  },
+  "author": "Cameron Dubas",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/camerondubas/portfolio/issues"
+  },
+  "homepage": "https://github.com/camerondubas/portfolio"
+}
