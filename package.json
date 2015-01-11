@@ -10,6 +10,12 @@
     "type": "git",
     "url": "https://github.com/camerondubas/portfolio.git"
   },
+  "dependencies": {
+    "express": "~4.9.x"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
   "author": "Cameron Dubas",
   "license": "BSD-2-Clause",
   "bugs": {
