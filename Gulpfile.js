@@ -54,7 +54,7 @@ gulp.task('styles', function () {
 // ############# Scripts Task ###################
 // ##############################################
 gulp.task('scripts', function () {
-  return gulp.src(['src/**/*.js', 'server/index.js'])
+  return gulp.src('src/**/*.js')
     .pipe(jshint('.jshintrc.js'))
     .pipe(jshint.reporter('default'))
     .pipe(concat('main.js'))
@@ -93,7 +93,7 @@ gulp.task('clean', function () {
 gulp.task('watch', function () {
   gulp.watch('src/**/*.html', [ 'components']);
     gulp.watch('src/**/*.less', ['styles']);
-    gulp.watch('src/**/*.js', ['scripts']);
+    gulp.watch(['src/**/*.js', 'server/app.js'], ['scripts']);
     gulp.watch('src/**/*.*', ['images']);
     gulp.watch('src/images/**/*.*', ['images']);
 });
