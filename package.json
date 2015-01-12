@@ -2,10 +2,8 @@
   "name": "camerondubas",
   "version": "0.0.0",
   "description": "Portfolio of cameron dubas",
-  "main": "index.js",
+  "main": "server/app.js",
   "scripts": {
-    "start": "gulp",
-    "postinstall": "gulp default",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
